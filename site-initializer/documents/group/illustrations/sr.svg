@@ -1,0 +1,134 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="250px" height="150px" viewBox="0 0 250 150">
+<style>
+<![CDATA[
+@keyframes fadeMoveRight {
+  0% {
+    opacity: 0;
+    transform: matrix( 1, 0, 0, 1, -5,0);
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: matrix( 1, 0, 0, 1, 10,0);
+  }
+}
+
+.wave {
+  animation: fadeMoveRight 3s ease-out infinite;
+  transform-origin: center;
+}
+
+@keyframes swing {
+  0%, 85%, 100% {
+    transform: matrix(1, 0, 0, 1, -64.5, -66.5);
+  }
+  22% {
+    transform: matrix(0.9903, 0.1392, -0.1392, 0.9903, -64.5, -66.5);
+  }
+  47% {
+    transform: matrix(0.9962, -0.0872, 0.0872, 0.9962, -64.5, -66.5);
+  }
+  72% {
+    transform: matrix(0.9994, 0.0349, -0.0349, 0.9994, -64.5, -66.5);
+  }
+}
+
+.speaker {
+  animation: swing 3s ease-in-out infinite;
+  transform-origin: bottom;
+}
+]]>
+</style>
+<defs>
+<g id="Layer0_0_FILL">
+<path fill="#6E50EB" stroke="none" d="
+M 157 117
+Q 184.05 81.65 157 48.25 173.7 83.1 157 117 Z"/>
+</g>
+
+<g id="Layer0_1_FILL">
+<path fill="#6E50EB" stroke="none" d="
+M 142.1 111.6
+Q 164.9 81.8 142.1 53.7 156.15 83.05 142.1 111.6 Z"/>
+</g>
+
+<g id="Layer0_2_FILL">
+<path fill="#6E50EB" stroke="none" d="
+M 127.1 61.3
+Q 137.45 82.95 127.1 104 143.85 82.05 127.1 61.3 Z"/>
+</g>
+
+<path id="Layer0_0_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 157 117
+Q 184.05 81.65 157 48.25 173.7 83.1 157 117 Z"/>
+
+<path id="Layer0_1_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 142.1 111.6
+Q 164.9 81.8 142.1 53.7 156.15 83.05 142.1 111.6 Z"/>
+
+<path id="Layer0_2_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 127.1 104
+Q 143.85 82.05 127.1 61.3 137.45 82.95 127.1 104 Z"/>
+
+<path id="Layer0_3_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 143.5 138.25
+L 153.05 138.25 171 128.75
+Q 177 128.75 177 134.75
+L 177 164
+Q 177 170 171 170
+L 153.05 160.5 143.5 160.5
+Q 137.5 160.5 137.5 154.5
+L 137.5 144.25
+Q 137.5 138.25 143.5 138.25 Z
+M 153.05 160.5
+L 153.05 138.25"/>
+
+<path id="Layer0_4_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 281 90.25
+Q 281 91.4 280.2 92.2 279.4 93 278.25 93 277.1 93 276.3 92.2 275.5 91.4 275.5 90.25 275.5 89.1 276.3 88.3 277.1 87.5 278.25 87.5 279.4 87.5 280.2 88.3 281 89.1 281 90.25 Z
+M 292.25 90.25
+Q 292.25 91.4 291.45 92.2 290.65 93 289.5 93 288.35 93 287.55 92.2 286.75 91.4 286.75 90.25 286.75 89.1 287.55 88.3 288.35 87.5 289.5 87.5 290.65 87.5 291.45 88.3 292.25 89.1 292.25 90.25 Z
+M 88 82.05
+L 292 82.05
+Q 298 82.05 298 88.05
+L 298 196
+Q 298 202 292 202
+L 88 202
+Q 82 202 82 196
+L 82 98.05 82 88.05
+Q 82 82.05 88 82.05 Z
+M 82 98.05
+L 263.55 98.05"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) "  class="wave" style="animation-delay: 0.3s">
+<use xlink:href="#Layer0_0_FILL"/>
+
+<use xlink:href="#Layer0_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) "  class="wave" style="animation-delay: 0.2s">
+<use xlink:href="#Layer0_1_FILL"/>
+
+<use xlink:href="#Layer0_1_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) "  class="wave" style="animation-delay: 0.1s">
+<use xlink:href="#Layer0_2_FILL"/>
+
+<use xlink:href="#Layer0_2_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -64.5,-66.5) " class="speaker">
+<use xlink:href="#Layer0_3_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -64.5,-66.5) ">
+<use xlink:href="#Layer0_4_1_STROKES"/>
+</g>
+</svg>

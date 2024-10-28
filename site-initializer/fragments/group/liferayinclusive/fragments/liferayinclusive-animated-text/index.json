@@ -1,0 +1,175 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "span",
+					"label": "heading-level",
+					"name": "headingLevel",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "span"
+							},
+							{
+								"value": "1",
+								"label": "h1"
+							},
+							{
+								"value": "2",
+								"label": "h2"
+							},
+							{
+								"value": "3",
+								"label": "h3"
+							},
+							{
+								"value": "4",
+								"label": "h4"
+							},
+							{
+								"value": "5",
+								"label": "h5"
+							},
+							{
+								"value": "6",
+								"label": "h6"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnNvaHN6aHJyZnRocndibDZxNmxzNWEyYXRkazdlejh5cTQzc2p3NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0MYxGUd2eNK379Pa/giphy.gif",
+					"label": "background-image",
+					"name": "backgroundImage",
+					"type": "text"
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "none",
+					"label": "Background Attachment",
+					"name": "backgroundAttachment",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "none"
+							},
+							{
+								"value": "fixed"
+							}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "cover",
+					"label": "Background Size",
+					"name": "backgroundSize",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"label": "Cover",
+								"value": "cover"
+							},
+							{
+								"label": "Contain",
+								"value": "contain"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "fadeInUp",
+					"label": "Animation Type",
+					"name": "animationType",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "fadeInUp"
+							},
+							{
+								"value": "fadeInDown"
+							},
+							{
+								"value": "fadeInLeft"
+							},
+							{
+								"value": "fadeInRight"
+							},
+							{
+								"value": "bounceIn"
+							},
+							{
+								"value": "flash"
+							},
+							{
+								"value": "pulse"
+							},
+							{
+								"value": "rubberBand"
+							},
+							{
+								"value": "swing"
+							},
+							{
+								"value": "tada"
+							},
+							{
+								"value": "heartBeat"
+							}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "none",
+					"label": "Animation Repeat",
+					"name": "animationRepeat",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"label": "none",
+								"value": ""
+							},
+							{
+								"label": "2 times",
+								"value": "2-times"
+							},
+							{
+								"label": "3 times",
+								"value": "3-times"
+							},
+							{
+								"label": "Infinite",
+								"value": "infinite"
+							}
+						]
+					}
+				},
+				{
+					"defaultValue": false,
+					"label": "Animation Delay",
+					"name": "animationDelay",
+					"type": "checkbox"
+				}
+			],
+			"label": "Text Animation"
+		}
+	]
+}

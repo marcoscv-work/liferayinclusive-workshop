@@ -1,0 +1,28 @@
+[#assign
+	publicFriendlyURL = themeDisplay.getPathFriendlyURLPublic() + themeDisplay.getSiteGroup().getFriendlyURL()
+/]
+
+<footer class="brand-footer hidden-print py-5 text-light" aria-label="LiferayInclusive Page Footer">
+	<div class="container-lg">
+		<nav class="navbar navbar-dark flex-column flex-lg-row" aria-label="Footer Site Navigation">
+			<a href="${publicFriendlyURL}" class="navbar-brand mr-0 mr-md-2 text-6 lfr-portal-tooltip d-inline" title="Go to Home page">
+				<span class="text-6 d-inline font-weight-normal">
+					[@clay["icon"] symbol="accessibility" /]
+					Liferay<span class="text-weight-bold">Inclusive</span><span class="small">.com</span>
+				</span>
+			</a>
+
+			<a class="nav-link d-inline" href="${publicFriendlyURL}/help">
+				[@clay["icon"] symbol="question-circle" /]
+				Help
+			</a>
+
+			<div class="d-flex ml-lg-auto">
+				<lfr-widget-nav id="navFooter"></lfr-widget-nav>
+			</div>
+		</nav>
+	</div>
+	<div class="container-lg mt-4 text-center text-lg-left">
+		<span class="text-2 px-4">Site Designed and Developed by Marcos Castro and Verónica González</span>
+	</div>
+</footer>

@@ -1,0 +1,60 @@
+[#assign
+	publicFriendlyURL = themeDisplay.getPathFriendlyURLPublic() + themeDisplay.getSiteGroup().getFriendlyURL()
+/]
+
+<div class="brand-navbar hidden-print">
+	<div class="container-lg">
+		<nav class="navbar navbar-dark flex-column flex-lg-row" aria-label="General Site Navigation">
+			<a href="${publicFriendlyURL}" class="navbar-brand mr-0 mr-md-2 text-6 lfr-portal-tooltip d-inline" title="Go to Home page">
+				<h1 class="text-6 d-inline font-weight-normal">
+					[@clay["icon"] symbol="accessibility" /]
+					Liferay<span class="text-weight-bold">Inclusive</span><span class="small">.com</span>
+				</h1>
+			</a>
+
+			<div class="d-flex ml-lg-auto">
+				<lfr-widget-nav id="nav"></lfr-widget-nav>
+
+				<ul class="navbar-nav bd-navbar-nav flex-row align-items-center">
+					<li class="nav-item nav-item-accessibility">
+						<button disabled class="lfr-portal-tooltip nav-link btn btn-outline-dark btn-sm mx-2 btn-accessibility" title="Open Accessibility Menu">
+							[@clay["icon"] symbol="accessibility" /]
+						</button>
+					</li>
+					<li class="dropdown">
+						<div class="js-picker mr-2">
+							<label id="picker-label" class="sr-only">Select Theme Color</label>
+							<button disabled aria-labelledby="picker-label" aria-controls="listbox1" aria-expanded="false" aria-haspopup="listbox" id="comboButton" class="lfr-portal-tooltip nav-link btn btn-outline-dark btn-sm d-flex" role="combobox" tabindex="0" title="Theme Color">
+								<span data-value="dark" class="picker-icon d-none">[@clay["icon"] symbol="moon" /]</span>
+								<span data-value="light" class="picker-icon d-none">[@clay["icon"] symbol="sun" /]</span>
+								<span data-value="auto" class="picker-icon d-none">[@clay["icon"] symbol="adjust" /]</span>
+								<span class="picker-icon">[@clay["icon"] symbol="stars" /]</span>
+								[@clay["icon"] symbol="caret-double-l" /]
+							</button>
+							<ul aria-labelledby="picker-label" class="dropdown-menu" role="listbox" id="listbox1" tabindex="-1">
+								<li role="option" id="combo1-0" data-value="dark" class="d-flex align-items-center dropdown-item">[@clay["icon"] symbol="moon" /] <span class="ml-1">Dark</span></li>
+								<li role="option" id="combo1-1" data-value="light" class="d-flex align-items-center dropdown-item">[@clay["icon"] symbol="sun" /] <span class="ml-1">Light</span></li>
+								<li role="option" id="combo1-2" data-value="auto" class="d-flex align-items-center dropdown-item">[@clay["icon"] symbol="adjust" /] <span class="ml-1">Auto</span></li>
+							</ul>
+						</div>
+					</li>
+
+					[#if configuration.showUserMenu == true]
+						[#if themeDisplay.isSignedIn()]
+							<li class="d-flex mr-1" liferay-tag="avatar">
+								[@liferay.user_personal_bar /]
+							</li>
+						[#else]
+							<li class="nav-item">
+								<a class="nav-link" href="${publicFriendlyURL}/sign-in">
+									[@clay["icon"] symbol="user" /]
+									<span>Sign In</span>
+								</a>
+							</li>
+						[/#if]
+					[/#if]
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>

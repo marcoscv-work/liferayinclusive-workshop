@@ -1,0 +1,86 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "fadeInUp",
+					"label": "Animation Type",
+					"name": "animationType",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "fadeInUp"
+							},
+							{
+								"value": "fadeInDown"
+							},
+							{
+								"value": "fadeInLeft"
+							},
+							{
+								"value": "fadeInRight"
+							},
+							{
+								"value": "bounceIn"
+							},
+							{
+								"value": "flash"
+							},
+							{
+								"value": "pulse"
+							},
+							{
+								"value": "rubberBand"
+							},
+							{
+								"value": "swing"
+							},
+							{
+								"value": "tada"
+							},
+							{
+								"value": "heartBeat"
+							}
+						]
+					}
+				},
+				{
+					"defaultValue": false,
+					"label": "Animation Delay",
+					"name": "animationDelay",
+					"type": "checkbox"
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "none",
+					"label": "Animation Repeat",
+					"name": "animationRepeat",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"label": "none",
+								"value": ""
+							},
+							{
+								"label": "2 times",
+								"value": "2-times"
+							},
+							{
+								"label": "3 times",
+								"value": "3-times"
+							},
+							{
+								"label": "Infinite",
+								"value": "infinite"
+							}
+						]
+					}
+				}
+			],
+			"label": "Paragraph Animation"
+		}
+	]
+}

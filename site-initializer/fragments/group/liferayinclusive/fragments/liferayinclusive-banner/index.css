@@ -1,0 +1,215 @@
+@media (prefers-reduced-motion: no-preference) {
+	@keyframes moveInCircle {
+		0% {
+			transform: rotate(0deg);
+		}
+		50% {
+			transform: rotate(180deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+
+	@keyframes moveVertical {
+		0% {
+			transform: translateY(-50%);
+		}
+		50% {
+			transform: translateY(50%);
+		}
+		100% {
+			transform: translateY(-50%);
+		}
+	}
+
+	@keyframes moveHorizontal {
+		0% {
+			transform: translateX(-50%) translateY(-10%);
+		}
+		50% {
+			transform: translateX(50%) translateY(10%);
+		}
+		100% {
+			transform: translateX(-50%) translateY(-10%);
+		}
+	}
+}
+
+.gradient-bg {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(40deg, var(--color-bg-1), var(--color-bg-2));
+	top: 0;
+	left: 0;
+
+	> .flex-column {
+		z-index: 1;
+	}
+
+	.text {
+		color: rgb(var(--text-after));
+		font-size: 10vw;
+		line-height: 1.1;
+		text-shadow: -1px 0 var(--body-bg), 0 1px var(--body-bg),
+			1px 0 var(--body-bg), 0 -1px var(--body-bg);
+
+		@media (min-width: 992px) {
+			font-size: 8vw;
+		}
+
+		&.satisfy {
+			font-size: 5.8vw;
+
+			@media (min-width: 992px) {
+				font-size: 7.2vw;
+			}
+		}
+	}
+
+	.svgBlur {
+		display: none;
+	}
+
+	.noiseBg {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		mix-blend-mode: soft-light;
+		opacity: 0.3;
+	}
+
+	.gradients-container {
+		filter: url(#goo) blur(40px);
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+
+	.g1 {
+		position: absolute;
+		background: radial-gradient(
+				circle at center,
+				rgba(var(--color-1), 0.8) 0,
+				rgba(var(--color-1), 0) 50%
+			)
+			no-repeat;
+		mix-blend-mode: var(--blending);
+
+		width: var(--circle-size);
+		height: var(--circle-size);
+		top: calc(50% - var(--circle-size) / 2);
+		left: calc(50% - var(--circle-size) / 2);
+
+		transform-origin: center center;
+		animation: moveVertical 30s ease infinite;
+
+		opacity: 1;
+	}
+
+	.g2 {
+		position: absolute;
+		background: radial-gradient(
+				circle at center,
+				rgba(var(--color-2), 0.8) 0,
+				rgba(var(--color-2), 0) 50%
+			)
+			no-repeat;
+		mix-blend-mode: var(--blending);
+
+		width: var(--circle-size);
+		height: var(--circle-size);
+		top: calc(50% - var(--circle-size) / 2);
+		left: calc(50% - var(--circle-size) / 2);
+
+		transform-origin: calc(50% - 400px);
+		animation: moveInCircle 20s reverse infinite;
+
+		opacity: 1;
+	}
+
+	.g3 {
+		position: absolute;
+		background: radial-gradient(
+				circle at center,
+				rgba(var(--color-3), 0.8) 0,
+				rgba(var(--color-3), 0) 50%
+			)
+			no-repeat;
+		mix-blend-mode: var(--blending);
+
+		width: var(--circle-size);
+		height: var(--circle-size);
+		top: calc(50% - var(--circle-size) / 2 + 200px);
+		left: calc(50% - var(--circle-size) / 2 - 500px);
+
+		transform-origin: calc(50% + 400px);
+		animation: moveInCircle 40s linear infinite;
+
+		opacity: 1;
+	}
+
+	.g4 {
+		position: absolute;
+		background: radial-gradient(
+				circle at center,
+				rgba(var(--color-4), 0.8) 0,
+				rgba(var(--color-4), 0) 50%
+			)
+			no-repeat;
+		mix-blend-mode: var(--blending);
+
+		width: var(--circle-size);
+		height: var(--circle-size);
+		top: calc(50% - var(--circle-size) / 2);
+		left: calc(50% - var(--circle-size) / 2);
+
+		transform-origin: calc(50% - 200px);
+		animation: moveHorizontal 40s ease infinite;
+
+		opacity: 0.7;
+	}
+
+	.g5 {
+		position: absolute;
+		background: radial-gradient(
+				circle at center,
+				rgba(var(--color-5), 0.8) 0,
+				rgba(var(--color-5), 0) 50%
+			)
+			no-repeat;
+		mix-blend-mode: var(--blending);
+
+		width: calc(var(--circle-size) * 2);
+		height: calc(var(--circle-size) * 2);
+		top: calc(50% - var(--circle-size));
+		left: calc(50% - var(--circle-size));
+
+		transform-origin: calc(50% - 800px) calc(50% + 200px);
+		animation: moveInCircle 20s ease infinite;
+
+		opacity: 1;
+	}
+
+	/* .interactive {
+		position: absolute;
+		background: radial-gradient(
+				circle at center,
+				rgba(var(--color-interactive), 0.8) 0,
+				rgba(var(--color-interactive), 0) 50%
+			)
+			no-repeat;
+		mix-blend-mode: var(--blending);
+
+		width: 100%;
+		height: 100%;
+		top: -50%;
+		left: -50%;
+
+		opacity: 0.7;
+	} */
+}

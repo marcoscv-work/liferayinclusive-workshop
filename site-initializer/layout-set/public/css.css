@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Pacifico&family=Satisfy&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+/* Color Themes */
+
+body,
+[data-theme='dark'] body {
+	--color-bg-1: rgb(8, 10, 15);
+	--color-bg-2: rgb(0, 17, 32);
+	--color-1: 18, 113, 255;
+	--color-2: 107, 74, 255;
+	--color-3: 100, 100, 255;
+	--color-4: 50, 160, 220;
+	--color-5: 80, 47, 122;
+	--color-interactive: 140, 100, 255;
+	--text-after: 162, 145, 237;
+	--circle-size: 80%;
+	--blending: hard-light;
+	--bg-radial: 6, 96, 232;
+	--bg-radial-2: 116, 78, 244;
+	--bg-radial-2-b: 135, 102, 245;
+	--bg-radial-3: 46, 117, 158;
+	--body-bg: black;
+	/* Brand Navbar */
+	--brand-navbar-color: white;
+	--brand-navbar-bg: black;
+	--brand-navbar-bg-transparent: rgba(0, 0, 0, 0.75);
+	--brand-navbar-btn-hover-bg: #1c1c24;
+}
+
+[data-theme='light'] body {
+	--color-bg-1: rgb(218 191 255);
+	--color-bg-2: rgb(152 135 252);
+	--text-after: 41, 17, 146;
+	--body-bg: white;
+	--bg-radial: 70, 143, 251;
+	--bg-radial-2: 154, 126, 247;
+	--bg-radial-2-b: 247, 248, 249;
+	--bg-radial-3: 65, 151, 200;
+	--light: var(--dark);
+	/* Brand Navbar */
+	--brand-navbar-color: black;
+	--brand-navbar-bg: white;
+	--brand-navbar-bg-transparent: rgba(255, 255, 255, 0.75);
+	--brand-navbar-btn-hover-bg: #f1f2f5;
+}
+
+/* Components changes on color theme animations */
+
+[data-theme='dark'] {
+	.invert-dark {
+		filter: invert(1);
+	}
+
+	body:not(.c-prefers-reduced-motion) {
+		.invert-dark-animation {
+			filter: invert(1);
+		}
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	[data-theme='dark']
+		body:not(.c-prefers-reduced-motion)
+		.invert-dark-animation {
+		filter: invert(1);
+	}
+}
+
+[data-theme='light'] {
+	.alert-dark {
+		background-color: white;
+		color: black;
+
+		a {
+			color: black;
+		}
+	}
+
+	code {
+		color: #c12a80;
+	}
+
+	.invert-light {
+		filter: invert(1);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	[data-theme='light']
+		body:not(.c-prefers-reduced-motion)
+		.invert-light-animation {
+		filter: invert(1);
+	}
+}
+
+/* General styles */
+
+#main-content {
+	background-color: var(--body-bg, black);
+}
+
+/* Scroll smooth if animation is not reduced */
+
+html:has(body:not(.c-prefers-reduced-motion)) {
+	@media (prefers-reduced-motion: no-preference) {
+		scroll-behavior: smooth;
+	}
+}
+
+/* Prevent animation if the animation interactive control has focus */
+
+[data-animation]:has(a:focus) {
+	animation-delay: 0s !important;
+	animation-duration: 0s !important;
+}
+
+/* Adds "open on a new tab" icon when link have target="_blank" */
+
+a[target='_blank'] {
+	display: inline-flex;
+	align-items: center;
+
+	&::after {
+		content: '(It opens a new tab)';
+		font-size: 0;
+		margin-left: 16px;
+		width: 16px;
+		height: 16px;
+		background-image: url('/o/admin-theme/images/clay/shortcut.svg');
+		background-repeat: no-repeat;
+		display: inline-flex;
+		opacity: 0.7;
+	}
+}
+
+/* Fonts */
+
+.montserrat,
+.montserrat span {
+	font-family: 'Montserrat', sans-serif !important;
+	font-optical-sizing: auto;
+	font-weight: 900;
+	font-style: normal;
+	text-transform: none;
+}
+
+.pacifico,
+.pacifico span {
+	font-family: 'Pacifico' !important;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.satisfy,
+.satisfy span {
+	font-family: Satisfy !important;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Site Container */
+
+.site-container {
+	padding: 6vh 0 !important;
+	display: flex;
+
+	@media (min-width: 992px) {
+		min-height: 100vh;
+		padding: 10vh 0 !important;
+	}
+
+	a:not(.btn) {
+		color: var(--light);
+	}
+}
+
+/* Backgrounds */
+
+.bg-radial {
+	background: rgb(var(--bg-radial));
+	background: linear-gradient(
+		90deg,
+		rgba(var(--bg-radial), 1) 0%,
+		rgba(var(--bg-radial-2), 1) 49%,
+		rgba(var(--bg-radial-3), 1) 100%
+	);
+	color: var(--light);
+
+	a:not(.btn) {
+		color: var(--light);
+		text-decoration: underline;
+	}
+}
+
+.bg-radial-2 {
+	background: rgb(var(--bg-radial-2));
+	background: linear-gradient(
+		189deg,
+		rgba(var(--bg-radial-2), 1) 0%,
+		rgba(var(--bg-radial), 1) 49%,
+		rgba(var(--bg-radial-3), 1) 100%
+	);
+	color: var(--light);
+
+	a:not(.btn) {
+		color: var(--light);
+		text-decoration: underline;
+	}
+}
+
+.bg-radial-3 {
+	background: rgb(var(--bg-radial-2));
+	background: linear-gradient(
+		240deg,
+		rgba(var(--bg-radial), 1) 0%,
+		rgba(var(--bg-radial-2), 1) 49%,
+		rgba(var(--bg-radial-3), 1) 100%
+	);
+	color: var(--light);
+
+	a:not(.btn) {
+		color: var(--light);
+		text-decoration: underline;
+	}
+}
+
+.bg-solid {
+	background: rgb(var(--bg-radial));
+	color: var(--light);
+
+	a:not(.btn) {
+		color: var(--light);
+		text-decoration: underline;
+	}
+}
+
+.bg-solid-2 {
+	background: rgb(var(--bg-radial-2));
+	color: var(--light);
+
+	a:not(.btn) {
+		color: var(--light);
+		text-decoration: underline;
+	}
+}
+
+.bg-solid-3 {
+	background: rgb(var(--bg-radial-3));
+	color: var(--light);
+
+	a:not(.btn) {
+		color: var(--light);
+		text-decoration: underline;
+	}
+}
+
+.label-inverse-pink {
+	background-color: #b410cf;
+	border-color: #b410cf;
+	color: white;
+}
+
+.list-group-header {
+	background: rgb(var(--bg-radial-2-b));
+	color: var(--light);
+
+	a:not(.btn) {
+		color: var(--light);
+		text-decoration: underline;
+	}
+}
+
+/* Reduce motion */
+
+body.c-prefers-reduced-motion {
+	* {
+		animation: none !important;
+		animation-delay: 0s !important;
+		transition-duration: 0s !important;
+	}
+}
+
+@media (prefers-reduced-motion) {
+	* {
+		animation: none !important;
+		animation-delay: 0s !important;
+		transition-duration: 0s !important;
+	}
+}
+
+/* Basic animation on scrolldown */
+
+.onScroll {
+	opacity: 0;
+	transition: opacity 0.5s ease-out;
+}
+
+.onScroll.visible {
+	opacity: 1;
+}
+
+/* Helpers */
+
+.vh-min-100 {
+	min-height: 100vh;
+}
+
+.vw-min-100 {
+	min-width: 100vh;
+}
+
+@media print {
+	.hidden-print {
+		display: none !important;
+	}
+
+	.dark-print {
+		color: black !important;
+		background-color: white !important;
+	}
+}

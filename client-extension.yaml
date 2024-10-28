@@ -1,0 +1,13 @@
+liferay-inclusive-site-initializer:
+    name: LiferayInclusive Site Initializer
+    oAuthApplicationHeadlessServer: liferay-inclusive-site-initializer-oauth-application-headless-server
+    siteExternalReferenceCode: liferayinclusive
+    siteName: LiferayInclusive
+    type: siteInitializer
+liferay-inclusive-site-initializer-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: LiferayInclusive OAuth Application Headless Server
+    scopes:
+        - Liferay.Headless.Site.everything
+    type: oAuthApplicationHeadlessServer

@@ -1,0 +1,63 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"fragment": {
+						"key": "liferayinclusive-container",
+						"siteKey": "LiferayInclusive"
+					},
+					"fragmentConfig": {
+						"bgColor": "bg-solid-2",
+						"alignItemsCenter": true,
+						"justifyContentCenter": true
+					},
+					"fragmentFields": [],
+					"indexed": true
+				},
+				"pageElements": [
+					{
+						"definition": {},
+						"pageElements": [
+							{
+								"definition": {
+									"indexed": true,
+									"layout": {
+										"widthType": "Fixed"
+									}
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragment": {
+												"key": "liferayinclusive-checklist",
+												"siteKey": "LiferayInclusive"
+											},
+											"fragmentConfig": {},
+											"fragmentFields": [],
+											"fragmentStyle": {
+												"paddingLeft": "4",
+												"paddingRight": "4"
+											},
+											"indexed": true
+										},
+										"type": "Fragment"
+									}
+								],
+								"type": "Section"
+							}
+						],
+						"type": "FragmentDropZone"
+					}
+				],
+				"type": "Fragment"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"masterPage": {
+			"key": "main"
+		}
+	}
+}

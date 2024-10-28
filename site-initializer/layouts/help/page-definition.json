@@ -1,0 +1,109 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"cssClasses": ["bg-solid"],
+					"fragmentStyle": {
+						"minHeight": "400px",
+						"paddingBottom": "8",
+						"paddingTop": "6"
+					},
+					"indexed": true,
+					"layout": {
+						"paddingBottom": 10,
+						"paddingTop": 6
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragmentStyle": {
+								"maxWidth": "900px",
+								"paddingLeft": "4",
+								"paddingRight": "4"
+							},
+							"indexed": true,
+							"layout": {
+								"paddingLeft": 2,
+								"paddingRight": 2,
+								"widthType": "Fixed"
+							}
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "liferayinclusive-animated-text",
+										"siteKey": "LiferayInclusive"
+									},
+									"fragmentConfig": {
+										"backgroundAttachment": "none",
+										"animationDelay": true,
+										"backgroundImage": "",
+										"backgroundSize": "cover",
+										"headingLevel": "span",
+										"animationRepeat": "none",
+										"animationType": "tada"
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "help"
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontSize": "12vw",
+										"fontWeight": "400",
+										"marginBottom": "5",
+										"textAlign": "center"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {
+										"key": "liferayinclusive-html",
+										"siteKey": "LiferayInclusive"
+									},
+									"fragmentConfig": {},
+									"fragmentFields": [
+										{
+											"id": "element-html",
+											"value": {
+												"html": {
+													"value_i18n": {
+														"en_US": "\n\t<p class=\"text-6\">\n\t\tThis site offers useful information on accessibility in Liferay. Here, you'll find resources and guides to make accessible websites more easily.\n\t</p>\n\n\t<p class=\"text-6\">\n    If you need more information or have any questions, please don’t hesitate to contact us: <a href=\"mailto:info@liferayinclusive.com\">info@liferayinclusive.com</a>\n\t</p>\n"
+													}
+												}
+											}
+										}
+									],
+									"indexed": true
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Section"
+					}
+				],
+				"type": "Section"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"masterPage": {
+			"key": "main"
+		}
+	}
+}

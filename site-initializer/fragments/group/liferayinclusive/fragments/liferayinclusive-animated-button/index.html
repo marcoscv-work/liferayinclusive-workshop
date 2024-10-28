@@ -1,0 +1,21 @@
+[#assign repeatCss = ""]
+
+[#if configuration.animationRepeat == "2-times"]
+	[#assign repeatCss = "animate__repeat-2"]
+[#elseif configuration.animationRepeat == "3-times"]
+	[#assign repeatCss = "animate__repeat-3"]
+[#elseif configuration.animationRepeat == "infinite"]
+	[#assign repeatCss = "animate__infinite"]
+[/#if]
+
+[#if configuration.type == "action"]
+	<button [#if configuration.animationDelay]style="animation-delay: 1s;"[/#if] data-animation="${configuration.animationType}" class="animated-button btn btn-${configuration.buttonSize} btn-${configuration.buttonType} ${repeatCss} ${repeatCss}" data-lfr-editable-id="action" data-lfr-editable-type="action">
+		Go Somewhere
+	</button>
+[#else]
+	<div [#if configuration.animationDelay]style="animation-delay: 1s;"[/#if] data-animation="${configuration.animationType}" class="animated-button component-button text-break ${repeatCss}">
+		<a class="btn btn-${configuration.buttonSize} btn-${configuration.buttonType}" data-lfr-editable-id="link" data-lfr-editable-type="link" href="" id="fragment-${fragmentEntryLinkNamespace}-link">
+			Go Somewhere
+		</a>
+	</div>
+[/#if]

@@ -1,0 +1,12 @@
+.brand-footer {
+	background-color: var(--brand-footer-bg);
+	color: var(--brand-footer-color);
+
+	a {
+		color: var(--brand-footer-color);
+	}
+
+	.portlet {
+		margin-bottom: 0;
+	}
+}

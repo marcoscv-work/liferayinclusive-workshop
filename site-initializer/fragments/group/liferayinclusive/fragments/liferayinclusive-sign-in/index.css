@@ -1,0 +1,59 @@
+.sign-in {
+	height: 100%;
+
+	.navbar-brand {
+		text-decoration: none;
+	}
+
+	.bg-image {
+		background-image: url([resources:sign_in.jpg]);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: saturate(0.6);
+		overflow: hidden;
+	}
+}
+
+.sign-in-form {
+	.sign-in-text {
+		font-family: Pacifico, var(--font-family-base);
+		line-height: 1.8;
+		margin: 0 20px 20px;
+		font-size: 56px;
+	}
+
+	label {
+		color: var(--light);
+	}
+
+	.btn-primary {
+		border: 1px solid var(--light);
+		margin-left: 18px;
+		padding: 16px 30px;
+		margin-bottom: 20px;
+	}
+
+	.navigation {
+		margin-left: 18px;
+	}
+
+	.form-feedback-item {
+		background-color: #f6f0f0;
+		display: inline-flex;
+		padding: 2px 6px;
+		border-radius: 2px;
+
+		&::before {
+			content: '';
+			margin-right: 6px;
+			width: 16px;
+			height: 16px;
+			background-image: url(/o/admin-theme/images/clay/warning.svg);
+			background-repeat: no-repeat;
+			display: inline-flex;
+			opacity: 0.5;
+			margin-top: 2px;
+		}
+	}
+}

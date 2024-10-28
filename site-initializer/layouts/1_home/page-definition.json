@@ -1,0 +1,1761 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"fragment": {
+						"key": "liferayinclusive-banner",
+						"siteKey": "LiferayInclusive"
+					},
+					"fragmentConfig": {
+						"SVGfilter": false
+					},
+					"fragmentFields": [],
+					"indexed": true
+				},
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "liferayinclusive-container",
+						"siteKey": "LiferayInclusive"
+					},
+					"fragmentConfig": {
+						"bgColor": "bg-solid",
+						"alignItemsCenter": true,
+						"justifyContentCenter": true
+					},
+					"fragmentFields": [],
+					"indexed": true
+				},
+				"pageElements": [
+					{
+						"definition": {},
+						"pageElements": [
+							{
+								"definition": {
+									"cssClasses": ["montserrat"],
+									"fragment": {
+										"key": "liferayinclusive-animated-text",
+										"siteKey": "LiferayInclusive"
+									},
+									"fragmentConfig": {
+										"backgroundAttachment": "none",
+										"animationDelay": false,
+										"backgroundImage": "",
+										"backgroundSize": "cover",
+										"headingLevel": "2",
+										"animationRepeat": "none",
+										"animationType": "fadeInUp"
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "European Accessibility Act"
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontSize": "5vw",
+										"textAlign": "center"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {
+										"key": "liferayinclusive-animated-text",
+										"siteKey": "LiferayInclusive"
+									},
+									"fragmentConfig": {
+										"backgroundAttachment": "none",
+										"animationDelay": false,
+										"backgroundImage": "",
+										"backgroundSize": "cover",
+										"headingLevel": "span",
+										"animationRepeat": "infinite",
+										"animationType": "pulse"
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "June 2025"
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontSize": "5vw",
+										"marginTop": "-1vw",
+										"textAlign": "center"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {
+										"key": "liferayinclusive-animated-button",
+										"siteKey": "LiferayInclusive"
+									},
+									"fragmentConfig": {
+										"buttonType": "secondary",
+										"animationDelay": true,
+										"type": "link",
+										"buttonSize": "lg",
+										"animationRepeat": "none",
+										"animationType": "fadeInDown"
+									},
+									"fragmentFields": [
+										{
+											"id": "link",
+											"value": {
+												"fragmentLink": {
+													"value": {
+														"href": {
+															"value_i18n": {
+																"en_US": "https://ec.europa.eu/social/main.jsp?catId=1202"
+															}
+														},
+														"target": "Blank"
+													}
+												},
+												"text": {
+													"value_i18n": {
+														"en_US": "European Commision"
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"marginTop": "5",
+										"textAlign": "center"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "FragmentDropZone"
+					}
+				],
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "liferayinclusive-container",
+						"siteKey": "LiferayInclusive"
+					},
+					"fragmentConfig": {
+						"bgColor": "bg-radial-3",
+						"alignItemsCenter": true,
+						"justifyContentCenter": true
+					},
+					"fragmentFields": [],
+					"indexed": true
+				},
+				"pageElements": [
+					{
+						"definition": {},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "liferayinclusive-animated-text",
+										"siteKey": "LiferayInclusive"
+									},
+									"fragmentConfig": {
+										"backgroundAttachment": "none",
+										"animationDelay": false,
+										"backgroundImage": "",
+										"backgroundSize": "cover",
+										"headingLevel": "2",
+										"animationType": "fadeInUp"
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "Liferay helps you.."
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontSize": "8vw",
+										"textAlign": "center"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"cssClasses": ["montserrat"],
+									"fragment": {
+										"key": "liferayinclusive-animated-paragraph",
+										"siteKey": "LiferayInclusive"
+									},
+									"fragmentConfig": {
+										"animationDelay": false,
+										"animationType": "fadeInUp"
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "..to create inclusive websites"
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontSize": "3.5vw",
+										"marginTop": "3",
+										"textAlign": "center"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"indexed": true,
+									"layout": {
+										"widthType": "Fixed"
+									}
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragment": {
+												"key": "liferayinclusive-animated-paragraph",
+												"siteKey": "LiferayInclusive"
+											},
+											"fragmentConfig": {
+												"animationDelay": true,
+												"animationType": "flash"
+											},
+											"fragmentFields": [
+												{
+													"id": "element-text",
+													"value": {
+														"fragmentLink": {},
+														"text": {
+															"value_i18n": {
+																"en_US": "but we need you to follow some good practices"
+															}
+														}
+													}
+												}
+											],
+											"fragmentStyle": {
+												"fontFamily": "fontFamilyMonospace",
+												"fontSize": "24px",
+												"marginTop": "4",
+												"paddingLeft": "5",
+												"paddingRight": "5",
+												"textAlign": "center"
+											},
+											"indexed": true
+										},
+										"type": "Fragment"
+									}
+								],
+								"type": "Section"
+							}
+						],
+						"type": "FragmentDropZone"
+					}
+				],
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "liferayinclusive-container",
+						"siteKey": "LiferayInclusive"
+					},
+					"fragmentConfig": {
+						"bgColor": "bg-solid",
+						"alignItemsCenter": true,
+						"justifyContentCenter": true
+					},
+					"fragmentFields": [],
+					"indexed": true
+				},
+				"pageElements": [
+					{
+						"definition": {},
+						"pageElements": [
+							{
+								"definition": {
+									"indexed": true,
+									"layout": {}
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"gutters": true,
+											"indexed": true,
+											"modulesPerRow": 2,
+											"numberOfColumns": 2,
+											"reverseOrder": false,
+											"rowViewports": [
+												{
+													"id": "landscapeMobile",
+													"rowViewportDefinition": {
+														"modulesPerRow": 1
+													}
+												},
+												{
+													"id": "portraitMobile",
+													"rowViewportDefinition": {}
+												},
+												{
+													"id": "tablet",
+													"rowViewportDefinition": {
+														"modulesPerRow": 1
+													}
+												}
+											],
+											"verticalAlignment": "top"
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"columnViewports": [
+														{
+															"columnViewportDefinition": {
+																"size": 12
+															},
+															"id": "landscapeMobile"
+														},
+														{
+															"columnViewportDefinition": {},
+															"id": "portraitMobile"
+														},
+														{
+															"columnViewportDefinition": {
+																"size": 12
+															},
+															"id": "tablet"
+														}
+													],
+													"size": 6
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragmentStyle": {
+																"textAlign": "right",
+																"width": "30vw"
+															},
+															"indexed": true,
+															"layout": {}
+														},
+														"pageElements": [
+															{
+																"definition": {
+																	"cssClasses": [
+																		"ml-auto"
+																	],
+																	"fragment": {
+																		"key": "liferayinclusive-animated-image",
+																		"siteKey": "LiferayInclusive"
+																	},
+																	"fragmentConfig": {
+																		"imageSize": "w-100"
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "animated-image",
+																			"value": {
+																				"fragmentImage": {
+																					"description": {
+																						"value_i18n": {
+																							"en_US": ""
+																						}
+																					},
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "/documents/d/liferayinclusive/vpat-svg?imagePreview=1"
+																						}
+																					}
+																				},
+																				"fragmentLink": {}
+																			}
+																		},
+																		{
+																			"id": "no-animated-image",
+																			"value": {
+																				"fragmentImage": {
+																					"description": {
+																						"value_i18n": {
+																							"en_US": ""
+																						}
+																					},
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "/documents/d/liferayinclusive/vpat_stopmotion-svg?imagePreview=1"
+																						}
+																					}
+																				},
+																				"fragmentLink": {}
+																			}
+																		}
+																	],
+																	"fragmentStyle": {
+																		"maxWidth": "450px",
+																		"paddingRight": "3",
+																		"textAlign": "right"
+																	},
+																	"fragmentViewports": [
+																		{
+																			"fragmentViewportStyle": {
+																				"hidden": true,
+																				"paddingLeft": "4",
+																				"paddingRight": "4"
+																			},
+																			"id": "tablet"
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															}
+														],
+														"type": "Section"
+													}
+												],
+												"type": "Column"
+											},
+											{
+												"definition": {
+													"columnViewports": [
+														{
+															"columnViewportDefinition": {
+																"size": 12
+															},
+															"id": "landscapeMobile"
+														},
+														{
+															"columnViewportDefinition": {},
+															"id": "portraitMobile"
+														},
+														{
+															"columnViewportDefinition": {
+																"size": 12
+															},
+															"id": "tablet"
+														}
+													],
+													"size": 6
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"cssClasses": [
+																"montserrat"
+															],
+															"fragment": {
+																"key": "liferayinclusive-animated-text",
+																"siteKey": "LiferayInclusive"
+															},
+															"fragmentConfig": {
+																"backgroundAttachment": "none",
+																"animationDelay": false,
+																"backgroundImage": "",
+																"backgroundSize": "cover",
+																"headingLevel": "2",
+																"animationRepeat": "none",
+																"animationType": "fadeInUp"
+															},
+															"fragmentFields": [
+																{
+																	"id": "element-text",
+																	"value": {
+																		"fragmentLink": {},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "VPAT"
+																			}
+																		}
+																	}
+																}
+															],
+															"fragmentStyle": {
+																"fontSize": "9vw"
+															},
+															"fragmentViewports": [
+																{
+																	"fragmentViewportStyle": {
+																		"textAlign": "center"
+																	},
+																	"id": "tablet"
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "liferayinclusive-animated-paragraph",
+																"siteKey": "LiferayInclusive"
+															},
+															"fragmentConfig": {
+																"animationDelay": false,
+																"animationType": "fadeInUp"
+															},
+															"fragmentFields": [
+																{
+																	"id": "element-text",
+																	"value": {
+																		"fragmentLink": {},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Voluntary Product Accessibility Template"
+																			}
+																		}
+																	}
+																}
+															],
+															"fragmentStyle": {
+																"fontFamily": "fontFamilyMonospace",
+																"fontSize": "20px",
+																"paddingRight": "4"
+															},
+															"fragmentViewports": [
+																{
+																	"fragmentViewportStyle": {
+																		"paddingLeft": "4",
+																		"paddingRight": "4",
+																		"textAlign": "center"
+																	},
+																	"id": "tablet"
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "liferayinclusive-animated-button",
+																"siteKey": "LiferayInclusive"
+															},
+															"fragmentConfig": {
+																"buttonType": "secondary",
+																"animationDelay": true,
+																"type": "link",
+																"buttonSize": "lg",
+																"animationType": "fadeInRight"
+															},
+															"fragmentFields": [
+																{
+																	"id": "link",
+																	"value": {
+																		"fragmentLink": {
+																			"value": {
+																				"href": {
+																					"value_i18n": {
+																						"en_US": "https://www.liferay.com/es/accessibility-compliance/digital-experience-platform"
+																					}
+																				},
+																				"target": "Blank"
+																			}
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Get Liferay VPAT"
+																			}
+																		}
+																	}
+																}
+															],
+															"fragmentStyle": {
+																"marginTop": "4"
+															},
+															"fragmentViewports": [
+																{
+																	"fragmentViewportStyle": {
+																		"textAlign": "center"
+																	},
+																	"id": "landscapeMobile"
+																},
+																{
+																	"fragmentViewportStyle": {
+																		"textAlign": "center"
+																	},
+																	"id": "tablet"
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "Column"
+											}
+										],
+										"type": "Row"
+									}
+								],
+								"type": "Section"
+							}
+						],
+						"type": "FragmentDropZone"
+					}
+				],
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "liferayinclusive-container",
+						"siteKey": "LiferayInclusive"
+					},
+					"fragmentConfig": {
+						"bgColor": "bg-solid-2",
+						"alignItemsCenter": true,
+						"justifyContentCenter": true
+					},
+					"fragmentFields": [],
+					"indexed": true
+				},
+				"pageElements": [
+					{
+						"definition": {},
+						"pageElements": [
+							{
+								"definition": {
+									"cssClasses": ["invert-light-animation"],
+									"fragment": {
+										"key": "liferayinclusive-animated-text",
+										"siteKey": "LiferayInclusive"
+									},
+									"fragmentConfig": {
+										"backgroundAttachment": "fixed",
+										"animationDelay": false,
+										"backgroundImage": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXN1OTN2amd6OXFzOGpkcHFleTBjcHh3bDA2eGJ0M3hwYnJ0N2djYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xThuWjC7yute751y0g/giphy.webp",
+										"backgroundSize": "contain",
+										"headingLevel": "2",
+										"animationType": "fadeInUp"
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "Tips"
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontSize": "20vw",
+										"textAlign": "center"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "FragmentDropZone"
+					}
+				],
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "liferayinclusive-container",
+						"siteKey": "LiferayInclusive"
+					},
+					"fragmentConfig": {
+						"bgColor": "bg-solid-3",
+						"alignItemsCenter": true,
+						"justifyContentCenter": true
+					},
+					"fragmentFields": [],
+					"indexed": true
+				},
+				"pageElements": [
+					{
+						"definition": {},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "liferayinclusive-animated-text",
+										"siteKey": "LiferayInclusive"
+									},
+									"fragmentConfig": {
+										"backgroundAttachment": "none",
+										"animationDelay": false,
+										"backgroundImage": "",
+										"backgroundSize": "cover",
+										"headingLevel": "2",
+										"animationType": "fadeInUp"
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "Not only automated tests..."
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontSize": "7vw",
+										"textAlign": "center"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"indexed": true,
+									"layout": {
+										"widthType": "Fixed"
+									}
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragment": {
+												"key": "liferayinclusive-animated-paragraph",
+												"siteKey": "LiferayInclusive"
+											},
+											"fragmentConfig": {
+												"animationDelay": false,
+												"animationType": "fadeInUp"
+											},
+											"fragmentFields": [
+												{
+													"id": "element-text",
+													"value": {
+														"fragmentLink": {},
+														"text": {
+															"value_i18n": {
+																"en_US": "Manual accessibility testing is essential because automated tests only catch about 20-30% of accessibility issues"
+															}
+														}
+													}
+												}
+											],
+											"fragmentStyle": {
+												"fontFamily": "fontFamilyMonospace",
+												"fontSize": "24px",
+												"marginTop": "5",
+												"paddingLeft": "5",
+												"paddingRight": "5",
+												"textAlign": "center"
+											},
+											"indexed": true
+										},
+										"type": "Fragment"
+									},
+									{
+										"definition": {
+											"fragment": {
+												"key": "liferayinclusive-animated-paragraph",
+												"siteKey": "LiferayInclusive"
+											},
+											"fragmentConfig": {
+												"animationDelay": true,
+												"animationType": "fadeInUp"
+											},
+											"fragmentFields": [
+												{
+													"id": "element-text",
+													"value": {
+														"fragmentLink": {},
+														"text": {
+															"value_i18n": {
+																"en_US": "Most accessibility barriers require human testing to identify, especially those related to context, usability, and specific user needs"
+															}
+														}
+													}
+												}
+											],
+											"fragmentStyle": {
+												"fontFamily": "fontFamilyMonospace",
+												"fontSize": "18px",
+												"marginTop": "2",
+												"paddingLeft": "5",
+												"paddingRight": "5",
+												"textAlign": "center"
+											},
+											"indexed": true
+										},
+										"type": "Fragment"
+									},
+									{
+										"definition": {
+											"fragment": {
+												"key": "liferayinclusive-animated-paragraph",
+												"siteKey": "LiferayInclusive"
+											},
+											"fragmentConfig": {
+												"animationDelay": true,
+												"animationType": "fadeInUp"
+											},
+											"fragmentFields": [
+												{
+													"id": "element-text",
+													"value": {
+														"fragmentLink": {},
+														"text": {
+															"value_i18n": {
+																"en_US": "W3C y WebAIM"
+															}
+														}
+													}
+												}
+											],
+											"fragmentStyle": {
+												"fontFamily": "fontFamilyMonospace",
+												"marginTop": "3",
+												"textAlign": "center"
+											},
+											"indexed": true
+										},
+										"type": "Fragment"
+									}
+								],
+								"type": "Section"
+							}
+						],
+						"type": "FragmentDropZone"
+					}
+				],
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "liferayinclusive-container",
+						"siteKey": "LiferayInclusive"
+					},
+					"fragmentConfig": {
+						"bgColor": "bg-radial-2",
+						"alignItemsCenter": true,
+						"justifyContentCenter": true
+					},
+					"fragmentFields": [],
+					"fragmentViewports": [
+						{
+							"fragmentViewportStyle": {
+								"hidden": false
+							},
+							"id": "tablet"
+						}
+					],
+					"indexed": true
+				},
+				"pageElements": [
+					{
+						"definition": {},
+						"pageElements": [
+							{
+								"definition": {
+									"indexed": true,
+									"layout": {}
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragmentViewports": [
+												{
+													"fragmentViewportStyle": {
+														"textAlign": "left"
+													},
+													"id": "tablet"
+												}
+											],
+											"gutters": true,
+											"indexed": true,
+											"modulesPerRow": 2,
+											"numberOfColumns": 2,
+											"reverseOrder": false,
+											"rowViewports": [
+												{
+													"id": "landscapeMobile",
+													"rowViewportDefinition": {
+														"modulesPerRow": 1
+													}
+												},
+												{
+													"id": "tablet",
+													"rowViewportDefinition": {
+														"modulesPerRow": 1
+													}
+												}
+											],
+											"verticalAlignment": "top"
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"columnViewports": [
+														{
+															"columnViewportDefinition": {
+																"size": 12
+															},
+															"id": "landscapeMobile"
+														},
+														{
+															"columnViewportDefinition": {},
+															"id": "portraitMobile"
+														},
+														{
+															"columnViewportDefinition": {
+																"size": 12
+															},
+															"id": "tablet"
+														}
+													],
+													"size": 6
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "liferayinclusive-animated-text",
+																"siteKey": "LiferayInclusive"
+															},
+															"fragmentConfig": {
+																"backgroundAttachment": "fixed",
+																"animationDelay": false,
+																"backgroundImage": "",
+																"backgroundSize": "cover",
+																"headingLevel": "3",
+																"animationType": "fadeInUp"
+															},
+															"fragmentFields": [
+																{
+																	"id": "element-text",
+																	"value": {
+																		"fragmentLink": {},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Vision"
+																			}
+																		}
+																	}
+																}
+															],
+															"fragmentStyle": {
+																"fontSize": "9vw",
+																"paddingLeft": "4",
+																"textAlign": "right"
+															},
+															"fragmentViewports": [
+																{
+																	"fragmentViewportStyle": {
+																		"paddingLeft": "0"
+																	},
+																	"id": "portraitMobile"
+																},
+																{
+																	"fragmentViewportStyle": {
+																		"fontSize": "16vw",
+																		"textAlign": "center"
+																	},
+																	"id": "tablet"
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "liferayinclusive-animated-paragraph",
+																"siteKey": "LiferayInclusive"
+															},
+															"fragmentConfig": {
+																"animationDelay": true,
+																"animationType": "fadeInUp"
+															},
+															"fragmentFields": [
+																{
+																	"id": "element-text",
+																	"value": {
+																		"fragmentLink": {},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "It's estimated that more than 50% of accessibility issues are related to vision. People with visual impairments are among the primary beneficiaries of accessibility improvements in websites and applications."
+																			}
+																		}
+																	}
+																}
+															],
+															"fragmentStyle": {
+																"fontFamily": "fontFamilyMonospace",
+																"fontSize": "20px",
+																"paddingLeft": "8",
+																"textAlign": "right"
+															},
+															"fragmentViewports": [
+																{
+																	"fragmentViewportStyle": {
+																		"paddingLeft": "4",
+																		"paddingRight": "4",
+																		"textAlign": "center"
+																	},
+																	"id": "tablet"
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "Column"
+											},
+											{
+												"definition": {
+													"columnViewports": [
+														{
+															"columnViewportDefinition": {
+																"size": 12
+															},
+															"id": "landscapeMobile"
+														},
+														{
+															"columnViewportDefinition": {},
+															"id": "portraitMobile"
+														},
+														{
+															"columnViewportDefinition": {
+																"size": 12
+															},
+															"id": "tablet"
+														}
+													],
+													"size": 6
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "liferayinclusive-animated-image",
+																"siteKey": "LiferayInclusive"
+															},
+															"fragmentConfig": {
+																"imageSize": "w-100"
+															},
+															"fragmentFields": [
+																{
+																	"id": "animated-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "/documents/d/liferayinclusive/eye-svg?imagePreview=1"
+																				}
+																			}
+																		},
+																		"fragmentLink": {}
+																	}
+																},
+																{
+																	"id": "no-animated-image",
+																	"value": {
+																		"fragmentImage": {
+																			"description": {
+																				"value_i18n": {
+																					"en_US": ""
+																				}
+																			},
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "/documents/d/liferayinclusive/eye_stopmotion-svg?imagePreview=1"
+																				}
+																			}
+																		},
+																		"fragmentLink": {}
+																	}
+																}
+															],
+															"fragmentStyle": {
+																"textAlign": "center",
+																"width": "80%"
+															},
+															"fragmentViewports": [
+																{
+																	"fragmentViewportStyle": {
+																		"hidden": false,
+																		"width": "100%"
+																	},
+																	"id": "tablet"
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "Column"
+											}
+										],
+										"type": "Row"
+									}
+								],
+								"type": "Section"
+							}
+						],
+						"type": "FragmentDropZone"
+					}
+				],
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "liferayinclusive-container",
+						"siteKey": "LiferayInclusive"
+					},
+					"fragmentConfig": {
+						"bgColor": "bg-radial",
+						"alignItemsCenter": true,
+						"justifyContentCenter": true
+					},
+					"fragmentFields": [],
+					"indexed": true
+				},
+				"pageElements": [
+					{
+						"definition": {},
+						"pageElements": [
+							{
+								"definition": {
+									"indexed": true,
+									"layout": {}
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"gutters": true,
+											"indexed": true,
+											"modulesPerRow": 2,
+											"numberOfColumns": 2,
+											"reverseOrder": false,
+											"rowViewports": [
+												{
+													"id": "landscapeMobile",
+													"rowViewportDefinition": {
+														"modulesPerRow": 1
+													}
+												},
+												{
+													"id": "portraitMobile",
+													"rowViewportDefinition": {}
+												},
+												{
+													"id": "tablet",
+													"rowViewportDefinition": {
+														"modulesPerRow": 1
+													}
+												}
+											],
+											"verticalAlignment": "top"
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"columnViewports": [
+														{
+															"columnViewportDefinition": {
+																"size": 12
+															},
+															"id": "landscapeMobile"
+														},
+														{
+															"columnViewportDefinition": {},
+															"id": "portraitMobile"
+														},
+														{
+															"columnViewportDefinition": {
+																"size": 12
+															},
+															"id": "tablet"
+														}
+													],
+													"size": 6
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "liferayinclusive-animated-image",
+																"siteKey": "LiferayInclusive"
+															},
+															"fragmentConfig": {
+																"imageSize": "w-100"
+															},
+															"fragmentFields": [
+																{
+																	"id": "animated-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "/documents/d/liferayinclusive/keyboard-svg?imagePreview=1"
+																				}
+																			}
+																		},
+																		"fragmentLink": {}
+																	}
+																},
+																{
+																	"id": "no-animated-image",
+																	"value": {
+																		"fragmentImage": {
+																			"description": {
+																				"value_i18n": {
+																					"en_US": ""
+																				}
+																			},
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "/documents/d/liferayinclusive/keyboard_stopmotion-svg?imagePreview=1"
+																				}
+																			}
+																		},
+																		"fragmentLink": {}
+																	}
+																}
+															],
+															"fragmentStyle": {
+																"paddingRight": "4"
+															},
+															"fragmentViewports": [
+																{
+																	"fragmentViewportStyle": {
+																		"paddingLeft": "4",
+																		"paddingRight": "4"
+																	},
+																	"id": "tablet"
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "Column"
+											},
+											{
+												"definition": {
+													"columnViewports": [
+														{
+															"columnViewportDefinition": {
+																"size": 12
+															},
+															"id": "landscapeMobile"
+														},
+														{
+															"columnViewportDefinition": {},
+															"id": "portraitMobile"
+														},
+														{
+															"columnViewportDefinition": {
+																"size": 12
+															},
+															"id": "tablet"
+														}
+													],
+													"size": 6
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "liferayinclusive-animated-text",
+																"siteKey": "LiferayInclusive"
+															},
+															"fragmentConfig": {
+																"backgroundAttachment": "fixed",
+																"animationDelay": false,
+																"backgroundImage": "",
+																"backgroundSize": "cover",
+																"headingLevel": "3",
+																"animationType": "fadeInUp"
+															},
+															"fragmentFields": [
+																{
+																	"id": "element-text",
+																	"value": {
+																		"fragmentLink": {},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Keyboard"
+																			}
+																		}
+																	}
+																}
+															],
+															"fragmentStyle": {
+																"fontSize": "9vw",
+																"paddingRight": "2"
+															},
+															"fragmentViewports": [
+																{
+																	"fragmentViewportStyle": {
+																		"paddingLeft": "0"
+																	},
+																	"id": "portraitMobile"
+																},
+																{
+																	"fragmentViewportStyle": {
+																		"fontSize": "16vw",
+																		"textAlign": "center"
+																	},
+																	"id": "tablet"
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "liferayinclusive-animated-paragraph",
+																"siteKey": "LiferayInclusive"
+															},
+															"fragmentConfig": {
+																"animationDelay": true,
+																"animationType": "fadeInUp"
+															},
+															"fragmentFields": [
+																{
+																	"id": "element-text",
+																	"value": {
+																		"fragmentLink": {},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Approximately 25% of accessibility issues are related to keyboard navigation and interactions, highlighting the importance of ensuring that all functionalities are accessible without relying on a mouse."
+																			}
+																		}
+																	}
+																}
+															],
+															"fragmentStyle": {
+																"fontFamily": "fontFamilyMonospace",
+																"fontSize": "20px",
+																"paddingRight": "7"
+															},
+															"fragmentViewports": [
+																{
+																	"fragmentViewportStyle": {
+																		"paddingLeft": "4",
+																		"paddingRight": "4",
+																		"textAlign": "center"
+																	},
+																	"id": "tablet"
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "Column"
+											}
+										],
+										"type": "Row"
+									}
+								],
+								"type": "Section"
+							}
+						],
+						"type": "FragmentDropZone"
+					}
+				],
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "liferayinclusive-container",
+						"siteKey": "LiferayInclusive"
+					},
+					"fragmentConfig": {
+						"bgColor": "bg-radial-3",
+						"alignItemsCenter": true,
+						"justifyContentCenter": true
+					},
+					"fragmentFields": [],
+					"indexed": true
+				},
+				"pageElements": [
+					{
+						"definition": {},
+						"pageElements": [
+							{
+								"definition": {
+									"indexed": true,
+									"layout": {}
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragment": {
+												"key": "liferayinclusive-animated-text",
+												"siteKey": "LiferayInclusive"
+											},
+											"fragmentConfig": {
+												"backgroundAttachment": "fixed",
+												"animationDelay": false,
+												"backgroundImage": "",
+												"backgroundSize": "cover",
+												"headingLevel": "3",
+												"animationType": "fadeInUp"
+											},
+											"fragmentFields": [
+												{
+													"id": "element-text",
+													"value": {
+														"fragmentLink": {},
+														"text": {
+															"value_i18n": {
+																"en_US": "Screen reader"
+															}
+														}
+													}
+												}
+											],
+											"fragmentStyle": {
+												"fontSize": "11vw",
+												"paddingRight": "2",
+												"textAlign": "center"
+											},
+											"fragmentViewports": [
+												{
+													"fragmentViewportStyle": {
+														"paddingLeft": "0"
+													},
+													"id": "portraitMobile"
+												},
+												{
+													"fragmentViewportStyle": {
+														"fontSize": "16vw",
+														"textAlign": "center"
+													},
+													"id": "tablet"
+												}
+											],
+											"indexed": true
+										},
+										"type": "Fragment"
+									},
+									{
+										"definition": {
+											"cssClasses": ["mx-auto"],
+											"fragment": {
+												"key": "liferayinclusive-animated-image",
+												"siteKey": "LiferayInclusive"
+											},
+											"fragmentConfig": {
+												"imageSize": "w-100"
+											},
+											"fragmentFields": [
+												{
+													"id": "animated-image",
+													"value": {
+														"fragmentImage": {
+															"url": {
+																"value_i18n": {
+																	"en_US": "/documents/d/liferayinclusive/sr-svg?imagePreview=1"
+																}
+															}
+														},
+														"fragmentLink": {}
+													}
+												},
+												{
+													"id": "no-animated-image",
+													"value": {
+														"fragmentImage": {
+															"description": {
+																"value_i18n": {
+																	"en_US": ""
+																}
+															},
+															"url": {
+																"value_i18n": {
+																	"en_US": "/documents/d/liferayinclusive/sr_stopmotion-svg?imagePreview=1"
+																}
+															}
+														},
+														"fragmentLink": {}
+													}
+												}
+											],
+											"fragmentStyle": {
+												"maxWidth": "500px"
+											},
+											"indexed": true
+										},
+										"type": "Fragment"
+									}
+								],
+								"type": "Section"
+							}
+						],
+						"type": "FragmentDropZone"
+					}
+				],
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "liferayinclusive-container",
+						"siteKey": "LiferayInclusive"
+					},
+					"fragmentConfig": {
+						"bgColor": "bg-solid-3",
+						"alignItemsCenter": true,
+						"justifyContentCenter": true
+					},
+					"fragmentFields": [],
+					"indexed": true
+				},
+				"pageElements": [
+					{
+						"definition": {},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "liferayinclusive-animated-text",
+										"siteKey": "LiferayInclusive"
+									},
+									"fragmentConfig": {
+										"backgroundAttachment": "none",
+										"animationDelay": false,
+										"backgroundImage": "",
+										"backgroundSize": "cover",
+										"headingLevel": "2",
+										"animationType": "fadeInUp"
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "Workshop steps"
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontSize": "10vw",
+										"textAlign": "center"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {
+										"key": "liferayinclusive-html",
+										"siteKey": "LiferayInclusive"
+									},
+									"fragmentConfig": {},
+									"fragmentFields": [
+										{
+											"id": "element-html",
+											"value": {
+												"html": {
+													"value_i18n": {
+														"en_US": "<ul class=\"alert alert-dark p-2 pl-4 m-2 text-5 p-sm-4 pl-sm-5 m-sm-4\">\n   <li>Download Liferay Portal 7.4 GA125 from <a href=\"https://www.liferay.com/es/downloads-community\">https://www.liferay.com/es/downloads-community</a></li>\n   <li>\n      Clone our workshop repo from <a href=\"https://github.com/marcoscv-work/liferayinclusive-workshop\">https://github.com/marcoscv-work/liferayinclusive-workshop</a>\n      <ul>\n         <li><code>git clone https://github.com/marcoscv-work/liferayinclusive-workshop</code></li>\n      </ul>\n   </li>\n   <li>Copy the <code>liferayinclusive-site-initializer.zip</code> located in <code>/dist</code> folder</li>\n   <li>Paste the <code>liferayinclusive-site-initializer.zip</code> into the <code>/osgi/client-extensions</code> or <code>/deploy</code> folder inside your Liferay Portal 7.4 Bundle directory</li>\n</ul>\n<h3 class=\"text-7 text-7 mx-4 pt-2\">\n   How to enable the accessibility menu button?\n</h3>\n<ul class=\"alert alert-dark p-2 pl-4 m-2 text-5 p-sm-4 pl-sm-5 m-sm-4\">\n   <li>Go to Applications Menu &gt; Control Panel &gt; Instance Settings &gt; Accessibility</li>\n   <li>Check \"Enable Accessibility Menu\" option and save</li>\n</ul>"
+													}
+												}
+											}
+										}
+									],
+									"indexed": true
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "FragmentDropZone"
+					}
+				],
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "liferayinclusive-container",
+						"siteKey": "LiferayInclusive"
+					},
+					"fragmentConfig": {
+						"bgColor": "bg-radial-3",
+						"alignItemsCenter": true,
+						"justifyContentCenter": true
+					},
+					"fragmentFields": [],
+					"indexed": true
+				},
+				"pageElements": [
+					{
+						"definition": {},
+						"pageElements": [
+							{
+								"definition": {
+									"cssClasses": ["invert-dark-animation"],
+									"fragment": {
+										"key": "liferayinclusive-animated-text",
+										"siteKey": "LiferayInclusive"
+									},
+									"fragmentConfig": {
+										"backgroundAttachment": "none",
+										"animationDelay": false,
+										"backgroundImage": "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnNvaHN6aHJyZnRocndibDZxNmxzNWEyYXRkazdlejh5cTQzc2p3NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0MYxGUd2eNK379Pa/giphy.gif",
+										"backgroundSize": "contain",
+										"headingLevel": "2",
+										"animationType": "fadeInUp"
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "Manual checklist"
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontSize": "9vw",
+										"textAlign": "center"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {
+										"key": "liferayinclusive-animated-button",
+										"siteKey": "LiferayInclusive"
+									},
+									"fragmentConfig": {
+										"buttonType": "secondary",
+										"animationDelay": false,
+										"type": "link",
+										"buttonSize": "lg",
+										"animationType": "heartBeat"
+									},
+									"fragmentFields": [
+										{
+											"id": "link",
+											"value": {
+												"fragmentLink": {
+													"value": {
+														"href": {
+															"mapping": {
+																"itemReference": {
+																	"className": "com.liferay.portal.kernel.model.Layout",
+																	"fields": [
+																		{
+																			"fieldName": "friendlyURL",
+																			"fieldValue": "/checklist"
+																		},
+																		{
+																			"fieldName": "privatePage",
+																			"fieldValue": "false"
+																		},
+																		{
+																			"fieldName": "siteKey",
+																			"fieldValue": "LiferayInclusive"
+																		}
+																	]
+																}
+															}
+														},
+														"target": "Self"
+													}
+												},
+												"text": {
+													"value_i18n": {
+														"en_US": "Go to Checklist"
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"textAlign": "center"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "FragmentDropZone"
+					}
+				],
+				"type": "Fragment"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"masterPage": {
+			"key": "main"
+		}
+	}
+}

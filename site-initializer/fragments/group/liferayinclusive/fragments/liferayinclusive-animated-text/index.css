@@ -1,0 +1,30 @@
+.animated-text {
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	text-transform: lowercase;
+	margin: 0 auto;
+	line-height: 1;
+	background-position-x: center;
+	background-position-y: bottom;
+	display: inline-block;
+	line-height: 1.8;
+	padding: 0 1vw;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+/* Animation Variables
+--animate-duration:1s
+--animate-delay */
+
+@media (prefers-reduced-motion) {
+	.animated-text {
+		background: none !important;
+		color: inherit !important;
+	}
+}
+
+.c-prefers-reduced-motion .animated-text {
+	background: none !important;
+	color: inherit !important;
+}
