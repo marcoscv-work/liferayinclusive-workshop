@@ -1,0 +1,57 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "bg-solid",
+					"label": "BG Color",
+					"name": "bgColor",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "bg-radial"
+							},
+							{
+								"value": "bg-radial-2"
+							},
+							{
+								"value": "bg-radial-3"
+							},
+							{
+								"value": "bg-solid"
+							},
+							{
+								"value": "bg-solid-2"
+							},
+							{
+								"value": "bg-solid-3"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"fields": [
+				{
+					"defaultValue": true,
+					"label": "Vertical Align Center",
+					"name": "alignItemsCenter",
+					"type": "checkbox"
+				}
+			]
+		},
+		{
+			"fields": [
+				{
+					"defaultValue": true,
+					"label": "Horizontal Align Center",
+					"name": "justifyContentCenter",
+					"type": "checkbox"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "fadeInUp",
+					"label": "animation-type",
+					"name": "animationType",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "fadeInUp"
+							},
+							{
+								"value": "fadeInDown"
+							},
+							{
+								"value": "fadeInLeft"
+							},
+							{
+								"value": "fadeInRight"
+							},
+							{
+								"value": "bounceIn"
+							},
+							{
+								"value": "flash"
+							},
+							{
+								"value": "pulse"
+							},
+							{
+								"value": "rubberBand"
+							},
+							{
+								"value": "swing"
+							},
+							{
+								"value": "tada"
+							},
+							{
+								"value": "heartBeat"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"fields": [
+				{
+					"defaultValue": false,
+					"label": "animation-delay",
+					"name": "animationDelay",
+					"type": "checkbox"
+				}
+			]
+		}
+	]
+}

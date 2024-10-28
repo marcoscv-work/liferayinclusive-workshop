@@ -1,0 +1,151 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "span",
+					"label": "heading-level",
+					"name": "headingLevel",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "span"
+							},
+							{
+								"value": "h1"
+							},
+							{
+								"value": "h2"
+							},
+							{
+								"value": "h3"
+							},
+							{
+								"value": "h4"
+							},
+							{
+								"value": "h5"
+							},
+							{
+								"value": "h6"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "fadeInUp",
+					"label": "animation-type",
+					"name": "animationType",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "fadeInUp"
+							},
+							{
+								"value": "fadeInDown"
+							},
+							{
+								"value": "fadeInLeft"
+							},
+							{
+								"value": "fadeInRight"
+							},
+							{
+								"value": "bounceIn"
+							},
+							{
+								"value": "flash"
+							},
+							{
+								"value": "pulse"
+							},
+							{
+								"value": "rubberBand"
+							},
+							{
+								"value": "swing"
+							},
+							{
+								"value": "tada"
+							},
+							{
+								"value": "heartBeat"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnNvaHN6aHJyZnRocndibDZxNmxzNWEyYXRkazdlejh5cTQzc2p3NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0MYxGUd2eNK379Pa/giphy.gif",
+					"label": "background-image",
+					"name": "backgroundImage",
+					"type": "text"
+				}
+			]
+		},
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "none",
+					"label": "background-attachment",
+					"name": "backgroundAttachment",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "none"
+							},
+							{
+								"value": "fixed"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "cover",
+					"label": "background-size",
+					"name": "backgroundSize",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "cover"
+							},
+							{
+								"value": "contain"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"fields": [
+				{
+					"defaultValue": false,
+					"label": "animation-delay",
+					"name": "animationDelay",
+					"type": "checkbox"
+				}
+			]
+		}
+	]
+}

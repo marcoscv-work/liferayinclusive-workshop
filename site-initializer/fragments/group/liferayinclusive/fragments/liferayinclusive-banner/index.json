@@ -1,0 +1,15 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"label": "Show SVG Filter",
+					"name": "SVGfilter",
+					"type": "checkbox",
+					"defaultValue": false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"label": "Show User Menu",
+					"name": "showUserMenu",
+					"type": "checkbox",
+					"defaultValue": true
+				}
+			]
+		}
+	]
+}

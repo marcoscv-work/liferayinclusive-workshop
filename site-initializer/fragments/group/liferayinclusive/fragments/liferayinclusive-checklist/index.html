@@ -1,0 +1,334 @@
+[#assign principles = [{
+	"name": "Perceivable",
+	"description": "Information and user interface components must be presented to users in ways they can perceive.",
+	"items": [
+		{
+			"title": "1.1.1 Non-text Content - Level A",
+			"checks": [
+				"Ensures that alt text is adequate and relevant for non-text elements."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "1.2.1 Audio-only and Video-only (Prerecorded) - Level A",
+			"checks": [
+				"Checks that descriptions and transcripts are provided for audio and video-only content."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "1.2.2 Captions (Prerecorded) - Level A",
+			"checks": [
+				"Ensures that captions are accurate for videos"
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "1.2.3 Audio Description or Media Alternative (Prerecorded) - Level A",
+			"checks": [
+				"Verifies the quality of audio descriptions for video content"
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "1.3.1 Info and Relationships - Level A",
+			"checks": [
+				"Ensures that visual relationships are represented correctly in the code."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "1.3.4 Orientation - Level AA",
+			"checks": [
+				"Confirms correct content display in both horizontal and vertical views."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "1.3.5 Identify Input Purpose - Level AA",
+			"checks": [
+				"Requires context to determine the purpose of input fields, such as autocomplete."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "1.4.1 Use of Color - Level A",
+			"checks": [
+				"Checks that color alone does not convey meaning, ensuring accessibility for colorblind users."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "1.4.3 Contrast (Minimum) - Level AA",
+			"checks": [
+				"Ensures text contrast meets minimum accessibility requirements for readability"
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "1.4.10 Reflow - Level AA",
+			"checks": [
+				"Ensures content readability and usability without horizontal scrolling."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "1.4.11 Non-text Contrast - Level AA",
+			"checks": [
+				"Checks contrast for non-text content like graphics and controls."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "1.4.12 Text Spacing - Level AA",
+			"checks": [
+				"Ensures legibility with adjusted text spacing."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		}
+		{
+			"title": "1.4.13 Content on Hover or Focus - Level AA",
+			"checks": [
+				"Ensures additional content on hover or focus is accessible and does not obstruct accessibility."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		}
+	]
+},
+{
+	"name": "Operable",
+	"description": "User interface components and navigation must be operable.",
+	"items": [
+		{
+			"title": "2.1.1 Keyboard - Level A",
+			"checks": [
+				"Ensures all content is keyboard-navigable."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "2.1.2 No Keyboard Trap - Level A",
+			"checks": [
+				"Verifies that keyboard focus can be moved away without trapping."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "2.2.2 Pause, Stop, Hide - Level A",
+			"checks": [
+				"Provides control over animations or moving elements."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "2.3.1 Three Flashes or Below - Level A",
+			"checks": [
+				"Checks that flashing content is within safe thresholds to prevent seizures."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "2.4.3 Focus Order - Level A",
+			"checks": [
+				"Ensures a logical and intuitive sequence of focus for keyboard navigation."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "2.4.7 Focus Visible - Level AA",
+			"checks": [
+				"Ensures a visible focus indicator to help users see where they are on the page."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "2.5.1 Pointer Gestures - Level A",
+			"checks": [
+				"Provides alternatives for complex gestures such as multi-finger swipes or pinches."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "2.5.2 Pointer Cancellation - Level A",
+			"checks": [
+				"Ensures users can cancel accidental actions triggered by pointer input."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "2.5.3 Label in Name - Level A",
+			"checks": [
+				"Matches the accessible name to the visible label for elements."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		}
+		{
+			"title": "2.5.4 Motion Actuation - Level A",
+			"checks": [
+				"Provides alternatives to interaction methods that require motion, such as shaking or tilting a device."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		}
+		{
+			"title": "2.5.6 Input with Assistance - Level AA",
+			"checks": [
+				"Ensures that data input fields have assistive guidance, such as autocomplete."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		}
+	]
+},
+{
+	"name": "Understandable",
+	"description": "The content and user interface must be understandable.",
+	"items": [
+		{
+			"title": "3.1.1 Language of Page - Level A ",
+			"checks": [
+				"Ensures that the main language of the page is correctly set."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "3.1.2 Language of Parts - Level AA",
+			"checks": [
+				"Specifies languages for sections of text that differ from the main language."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "3.2.1 On Focus - Level A",
+			"checks": [
+				"Verifies that no unexpected changes occur when an element receives focus."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "3.2.2 On Input - Level A",
+			"checks": [
+				"Ensures user interactions do not trigger unexpected changes in the content."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "3.2.4 Consistent Identification - Level AA",
+			"checks": [
+				"Uses consistent labels for repeated elements for a more intuitive experience."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "3.3.1 Error Identification - Level A",
+			"checks": [
+				"Ensures input errors are identified clearly to users."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "3.3.3 Error Suggestion - Level AA",
+			"checks": [
+				"Provides clear suggestions for correcting input errors."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "3.3.4 Error Prevention (Legal, Financial, Data) - Level AA",
+			"checks": [
+				"Ensures that users receive warnings or confirmations before critical actions."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		}
+	]
+},
+{
+	"name": "Robust",
+	"description": "Content must be robust enough to be reliably interpreted by a wide variety of user agents, including assistive technologies.",
+	"items": [
+		{
+			"title": "4.1.2 Name, Role, Value - Level A",
+			"checks": [
+				"Verifies that custom components have correct names, roles, and values for accessibility."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		},
+		{
+			"title": "4.1.3 Status Messages - Level AA",
+			"checks": [
+				"Ensures that status messages are accessible to assistive technology without interrupting the user’s workflow."
+			],
+			"icon": "view",
+			"score": "2.94117"
+		}
+	]
+}]/]
+
+<h2 class="montserrat">WCAG 2.2 Manual Checklist (Levels A and AA)</h2>
+
+<form class="form">
+	[#list principles as principle]
+		<h3 class="py-4">Principle ${principle.name}: <span class="h4">${principle.description}</span></h3>
+
+		[#list principle.items as item]
+			<h4 class="list-group-header">[@clay["icon"] symbol="${item.icon}" /] ${item.title}</h4>
+			<ul class="list-group">
+				[#list item.checks as check]
+					<li class="list-group-item list-group-item-flex px-2">
+						<div class="form-check d-flex align-items-center">
+							<input
+								class="form-check-input mr-2"
+								type="checkbox"
+								value=""
+								id="checklist-checkbox-${principle_index}-${item_index}-${check_index}"
+								data-score="${item.score}"
+								style="height: 30px; width: 30px"
+							/>
+							<label class="form-check-label text-5" for="checklist-checkbox-${principle_index}-${item_index}-${check_index}">
+								${check}
+							</label>
+						</div>
+					</li>
+				[/#list]
+			</ul>
+		[/#list]
+	[/#list]
+
+	<button type="submit" class="btn btn-primary btn-lg btn-block py-3 mt-5 hidden-print">Evaluate!</button>
+
+	<div role="status" class="checklist-message bg-radial text-5 p-4 my-4 border border-dark d-none text-center">
+		<h4 class="message"></h4>
+		<button class="btn btn-xs btn-secondary hidden-print m-4" onclick="javascript:window.print();">Print resoults</button>
+	</div>
+</form>

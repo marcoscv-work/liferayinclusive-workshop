@@ -1,0 +1,118 @@
+{
+	"blockquoteFontSize": {
+		"cssVariableMapping": "blockquote-font-size",
+		"value": "var(--font-size-large)"
+	},
+	"blockquoteSmallColor": {
+		"cssVariableMapping": "blockquote-small-color",
+		"value": "var(--gray-600)"
+	},
+	"brandColor1": {
+		"cssVariableMapping": "brand-color-1",
+		"value": "#0660E8"
+	},
+	"brandColor2": {
+		"cssVariableMapping": "brand-color-2",
+		"value": "#744EF4"
+	},
+	"brandColor3": {
+		"cssVariableMapping": "brand-color-3",
+		"value": "#2E759E"
+	},
+	"brandColor4": {
+		"cssVariableMapping": "brand-color-4",
+		"value": "#8766F5"
+	},
+	"btnLinkColor": {
+		"cssVariableMapping": "btn-link-color",
+		"value": "var(--primary)"
+	},
+	"display1Size": {
+		"cssVariableMapping": "display1-size",
+		"value": "6rem"
+	},
+	"display1Weight": {
+		"cssVariableMapping": "display1-weight",
+		"value": "400"
+	},
+	"display2Size": {
+		"cssVariableMapping": "display2-size",
+		"value": "4.5rem"
+	},
+	"display2Weight": {
+		"cssVariableMapping": "display2-weight",
+		"value": "400"
+	},
+	"display3Size": {
+		"cssVariableMapping": "display3-size",
+		"value": "4rem"
+	},
+	"display3Weight": {
+		"cssVariableMapping": "display3-weight",
+		"value": "400"
+	},
+	"display4Size": {
+		"cssVariableMapping": "display4-size",
+		"value": "3.25rem"
+	},
+	"display4Weight": {
+		"cssVariableMapping": "display4-weight",
+		"value": "400"
+	},
+	"displayLineHeight": {
+		"cssVariableMapping": "display-line-height",
+		"value": "1.1"
+	},
+	"fontSizeLg": {
+		"cssVariableMapping": "font-size-lg",
+		"value": "1.25rem"
+	},
+	"fontSizeSm": {
+		"cssVariableMapping": "font-size-sm",
+		"value": "0.875rem"
+	},
+	"fontWeightBold": {
+		"cssVariableMapping": "font-weight-bold",
+		"value": "600"
+	},
+	"fontWeightBolder": {
+		"cssVariableMapping": "font-weight-bolder",
+		"value": "600"
+	},
+	"grayDarkColor": {
+		"cssVariableMapping": "gray-dark",
+		"value": "var(--gray-800)"
+	},
+	"h1FontSize": {
+		"cssVariableMapping": "h1-font-size",
+		"value": "2.75rem"
+	},
+	"h2FontSize": {
+		"cssVariableMapping": "h2-font-size",
+		"value": "2.5rem"
+	},
+	"h3FontSize": {
+		"cssVariableMapping": "h3-font-size",
+		"value": "1.875rem"
+	},
+	"h4FontSize": {
+		"cssVariableMapping": "h4-font-size",
+		"value": "1.65rem"
+	},
+	"h5FontSize": {
+		"cssVariableMapping": "h5-font-size",
+		"value": "1.35rem"
+	},
+	"h6FontSize": {
+		"cssVariableMapping": "h6-font-size",
+		"value": "1rem"
+	},
+	"lightColor": {
+		"cssVariableMapping": "light",
+		"value": "var(--gray-200)"
+	},
+	"lighterColor": {
+		"cssVariableMapping": "lighter",
+		"value": "var(--gray-100)"
+	}
+}

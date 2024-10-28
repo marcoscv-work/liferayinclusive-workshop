@@ -1,0 +1,15 @@
+body:not(.c-prefers-reduced-motion) {
+	@media (prefers-reduced-motion: no-preference) {
+		[data-lfr-editable-id='no-animated-image'] {
+			display: none;
+		}
+
+		[data-lfr-editable-id='animated-image'] {
+			display: block;
+		}
+	}
+}
+
+[data-lfr-editable-id='animated-image'] {
+	display: none;
+}
