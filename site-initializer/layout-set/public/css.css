@@ -320,3 +320,24 @@ body.c-prefers-reduced-motion {
 		background-color: white !important;
 	}
 }
+
+/* Basic High contrasta prefers */
+
+@media (prefers-contrast) {
+	.btn:hover,
+	.btn:focus,
+	.dropdown-item.active,
+	.dropdown-item:hover,
+	.dropdown-item.hover {
+		filter: invert(1);
+	}
+
+	.form-control,
+	.input-group .input-group-inset-item {
+		border-color: black;
+	}
+
+	.alert {
+		border-width: 0.1625rem;
+	}
+}
